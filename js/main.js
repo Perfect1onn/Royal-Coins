@@ -1,15 +1,15 @@
 const cells = 49;
 
 const items = [
-  { name: "Vinograd", img: "/items_icons/R10 3.svg", chanche: 10 },
-  { name: "Semerki", img: "/items_icons/R10 1.svg", chanche: 25 },
-  { name: "Smarodina", img: "/items_icons/R10 1-3.svg", chanche: 35 },
-  { name: "Vishnya", img: "/items_icons/R10 2-2.svg", chanche: 40 },
-  { name: "Apelsin", img: "/items_icons/R10 2-3.svg", chanche: 55 },
-  { name: "Bels", img: "/items_icons/R10 2.svg", chanche: 65 },
-  { name: "Limon", img: "/items_icons/R10 3-2.svg", chanche: 75 },
-  { name: "Bar", img: "/items_icons/R10 1.png", chanche: 80 },
-  { name: "Arbuz", img: "/items_icons/R10 3-3.svg", chanche: 85 },
+  { name: "Vinograd", img: "items_icons/R10 3.svg", chanche: 10 },
+  { name: "Semerki", img: "items_icons/R10 1.svg", chanche: 25 },
+  { name: "Smarodina", img: "items_icons/R10 1-3.svg", chanche: 35 },
+  { name: "Vishnya", img: "items_icons/R10 2-2.svg", chanche: 40 },
+  { name: "Apelsin", img: "items_icons/R10 2-3.svg", chanche: 55 },
+  { name: "Bels", img: "items_icons/R10 2.svg", chanche: 65 },
+  { name: "Limon", img: "items_icons/R10 3-2.svg", chanche: 75 },
+  { name: "Bar", img: "items_icons/R10 1.png", chanche: 80 },
+  { name: "Arbuz", img: "items_icons/R10 3-3.svg", chanche: 85 },
 ];
 
 const user = { balance: 1000000, profit: 0, rating: 0 };

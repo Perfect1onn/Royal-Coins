@@ -1,0 +1,323 @@
+.royal-coins {
+  width: 800px;
+  max-height: 360px;
+  display: flex;
+  flex-direction: column;
+
+  &__menu-header {
+    padding-left: 34px;
+    padding-right: 128px;
+
+    width: 100%;
+    min-height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #913bff;
+    background: linear-gradient(
+      180deg,
+      #8000ff 0%,
+      #9e00ff 40.42%,
+      #61009c 100%
+    );
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+      0px -11px 19px 0px rgba(56, 0, 112, 0.63) inset;
+  }
+
+  &__info {
+    display: flex;
+    gap: 80px;
+  }
+
+  &__frame {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/backgrounds/R23\ 1.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    border: 1px solid #ffe600;
+    background: rgba(21, 9, 31, 0.73);
+    height: 240px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 412px;
+    overflow: hidden;
+  }
+
+  .column-1 {
+    position: relative;
+    display: inline-flex;
+    bottom: 0;
+    flex-direction: column;
+    max-height: 240px;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 13px;
+    transition: 3s cubic-bezier(0.21, 0.53, 0.29, 0.97);
+  }
+
+  .column-2 {
+    position: relative;
+    display: inline-flex;
+    bottom: 0;
+    flex-direction: column;
+    max-height: 240px;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 13px;
+    transition: 3s cubic-bezier(0.21, 0.53, 0.29, 0.97);
+  }
+
+  .column-3 {
+    position: relative;
+    display: inline-flex;
+    bottom: 0;
+    flex-direction: column;
+    max-height: 240px;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 13px;
+    transition: 3s cubic-bezier(0.21, 0.53, 0.29, 0.97);
+  }
+
+  .item {
+    display: flex;
+    flex-shrink: 0;
+    width: 105px;
+    height: 65px;
+  }
+
+  &__rating {
+    display: flex;
+    border-radius: 18.5px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffb800;
+    background: #370063;
+    box-shadow: 0px 4px 3px 0px rgba(32, 0, 65, 0.91) inset;
+    width: 241px;
+    height: 36px;
+    position: relative;
+  }
+
+  &__money {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18.5px;
+    border: 1px solid #ffb800;
+    background: #370063;
+    box-shadow: 0px 4px 3px 0px rgba(32, 0, 65, 0.91) inset;
+    width: 241px;
+    height: 36px;
+    position: relative;
+  }
+
+  &__menu-footer {
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 100%;
+    min-height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #913bff;
+    background: linear-gradient(
+      180deg,
+      #8000ff 0%,
+      #9e00ff 40.42%,
+      #61009c 100%
+    );
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+      0px -11px 19px 0px rgba(56, 0, 112, 0.63) inset;
+  }
+
+  &__rate {
+    display: flex;
+    gap: 13px;
+  }
+
+  &__win-score {
+    border-radius: 10px;
+    background: #320950;
+    width: 189px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__play-buttons {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+.rating {
+  font-size: 20px;
+  background: linear-gradient(180deg, #06f 0%, #bd00ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+.score {
+  background: linear-gradient(180deg, #ebff00 0%, #ffa800 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  font-weight: 500;
+}
+.royal-coins__rating::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-image: url("../img/icons/Group.svg");
+  width: 49px;
+  height: 49px;
+  left: -2px;
+}
+
+.rate {
+  background: linear-gradient(180deg, #ebff00 0%, #ffa800 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.royal-coins__money::before {
+  content: "";
+  position: absolute;
+  display: block;
+  background-image: url("../img/icons/Frame.svg");
+  width: 39px;
+  height: 27px;
+  left: 6px;
+}
+
+.rate-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 86px;
+  height: 38px;
+  border-radius: 10px;
+  background: #320950;
+}
+
+.money {
+  font-size: 20px;
+  background: linear-gradient(180deg, #ebff00 0%, #ffa800 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+.back-button {
+  width: 40px;
+  height: 40px;
+  margin-top: 8px;
+}
+
+.auto {
+  width: 99px;
+  height: 46px;
+  border: none;
+  outline: none;
+  border-radius: 11px;
+  border: 1px solid #00a3ff;
+  background: linear-gradient(180deg, #70ff00 0%, #bd00ff 0.01%, #005484 100%);
+  box-shadow: 0px 4px 4px 0px rgba(36, 255, 0, 0.27),
+    0px 4px 4px 0px rgba(255, 247, 207, 0.65) inset,
+    0px -6px 4px 0px rgba(0, 163, 255, 0.26) inset;
+  font-family: Impact;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: rgba(0, 224, 255, 1);
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.auto:hover {
+  opacity: 0.8;
+}
+
+.spin {
+  border: none;
+  outline: none;
+  width: 99px;
+  height: 46px;
+  border-radius: 11px;
+  border: 1px solid #ffb800;
+  background: linear-gradient(180deg, #70ff00 0%, #008405 100%);
+  box-shadow: 0px 4px 4px 0px rgba(36, 255, 0, 0.27),
+    0px 4px 4px 0px rgba(255, 247, 207, 0.65) inset,
+    0px -6px 4px 0px rgba(0, 255, 56, 0.26) inset;
+  font-family: Impact;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: #33ff00;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.spin:hover {
+  opacity: 0.8;
+}
+
+.button {
+  border: none;
+  outline: none;
+  width: 42px;
+  height: 42px;
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: 200ms;
+  border: 1px solid rgb(224, 155, 244);
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 2px 2px 0px #330e4f;
+  font-size: 20px;
+  font-weight: 400;
+  background: radial-gradient(#ff00e5, #9501ff);
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.back-btn {
+  padding-top: 10px;
+  padding-right: 2px;
+}
+
+.active {
+  img {
+    transform: scale(1.11);
+  }
+}

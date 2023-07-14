@@ -7,7 +7,6 @@
   &__menu-header {
     padding-left: 34px;
     padding-right: 128px;
-
     width: 100%;
     min-height: 56px;
     display: flex;
@@ -40,6 +39,8 @@
 
   &__container {
     display: flex;
+    margin-top: 4px;
+    margin-bottom: 4px;
     flex-direction: row;
     justify-content: space-between;
     border-radius: 20px;
